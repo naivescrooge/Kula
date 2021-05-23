@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>Kula</PackageId>
+    <Version>1</Version>
+    <Authors>HanaYabuki</Authors>
+    <Company />
+    <Product>Kula-lang</Product>
+    <AssemblyName>Kula</AssemblyName>
+    <RootNamespace>Kula</RootNamespace>
+  </PropertyGroup>
+
+</Project>
