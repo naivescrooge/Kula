@@ -31,7 +31,7 @@ class VirtualMachine
                     break;
                 case VMNodeType.NAME:
                     {
-                        vmStack.Push(variableMap.GetValueOrDefault((string)node.Value));
+                        vmStack.Push(variableMap[(string)node.Value]);
                     }
                     break;
                 case VMNodeType.FUNCTION:

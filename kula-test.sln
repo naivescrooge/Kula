@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kula-test", "kula-test\kula-test.csproj", "{EA4815A0-86AD-4FD0-B26F-017DC340078D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA4815A0-86AD-4FD0-B26F-017DC340078D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4815A0-86AD-4FD0-B26F-017DC340078D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4815A0-86AD-4FD0-B26F-017DC340078D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4815A0-86AD-4FD0-B26F-017DC340078D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5EBADA3-EBEE-4C6C-A36A-CCD01E9C8306}
+	EndGlobalSection
+EndGlobal
