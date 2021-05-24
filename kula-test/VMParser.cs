@@ -61,7 +61,12 @@ class VMParser
         {
             if (node != null)
             {
-                Console.WriteLine("\t[ " + node.Type + " | " + (node.Value ?? "-") + " ]");
+                string msg = "\t[ "
+                            + node.Type + Program.formatBlank[node.Type.ToString().Length]
+                            + "|"
+                            + (node.Value ?? "-") + Program.formatBlank[(node.Value ?? "-").ToString().Length]
+                            + " ]";
+                Console.WriteLine(msg);
             }
         }
         Console.WriteLine();

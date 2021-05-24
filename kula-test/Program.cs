@@ -5,9 +5,22 @@ using System.IO;
 
 class Program
 {
+    public static string[] formatBlank = new string[]
+    {
+        "          ",
+        "         ",
+        "        ",
+        "       ",
+        "      ",
+        "     ",
+        "    ",
+        "   ",
+        "  ",
+        " ",
+    };
     private static void HelloKula()
     {
-        Console.WriteLine("Kula test - alpha1 [2021/5/23] (in C#)");
+        Console.WriteLine("Kula test - alpha2 [2021/5/24] (on .net Framework at least 4.6)");
         Console.WriteLine("developed by @HanaYabuki in github.com");
     }
     private static void DebugRunCode(string code)

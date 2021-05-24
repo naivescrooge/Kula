@@ -85,6 +85,5 @@ class VirtualMachine
         }
         Console.WriteLine("\tEND OF PROGRAM.");
         Console.WriteLine();
-        // Console.ReadKey();
     }
 }

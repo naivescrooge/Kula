@@ -118,7 +118,12 @@ class VMLexer
         var tmp = tokenStream ?? Scan();
         foreach (VMLexToken token in tmp)
         {
-            Console.WriteLine("\t< " + token.Type.ToString() + " | " + token.Val + " >");
+            string msg = "\t< "
+                            + token.Type + Program.formatBlank[token.Type.ToString().Length]
+                            + "|"
+                            + token.Val + Program.formatBlank[token.Val.ToString().Length]
+                            + " >";
+            Console.WriteLine(msg);
         }
         Console.WriteLine();
     }
